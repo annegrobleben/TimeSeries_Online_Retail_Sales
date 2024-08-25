@@ -1,4 +1,4 @@
-This notebook is based on an assignment done as part of a Master in Data Science & AI at Nuclio Digital School, it shows how to create a forecasting model that predicts online retail sales profit.
+This notebook is based on an assignment done as part of a Master in Data Science & AI at Nuclio Digital School (2024), it shows how to create a forecasting model that predicts online retail sales profit.
 
 The assignment is split into three main parts: descriptive analysis, models development and model selection. Five different types of models are built, SARIMAX, Auto ARIMA, Prophet, XGBoost and KNN. The models are evaluated based on the mean absolute error, the root mean squared error and the mean absolute percentage error. After finetuning some hyperparameters the XGBoost model turns out to be the best-performing model considering all three metrics. To make the final forecast a pipeline including a scaler, a deseasonalizer and the hampel filter is set up based on this XGBoost model.
 
